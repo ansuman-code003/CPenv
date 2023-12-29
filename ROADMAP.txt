@@ -1,0 +1,58 @@
+----------LeetCode--------------
+1]	Suggestion from NeetCode 
+
+	- Learn any Language (C++ STL)                                 |  Recommended Time to Solve LC probles
+	- Don't solve in Random Order								   |  	- Easy :  	10-15 mins	
+	- Many LeetCode problems are in some Order                     |	- Medium :	20-30 mins ---> < 80% chance of clearing FAANG
+	- Use NeetCode RoadMap Tree (Suggested)                        |	- Hard:		God Knows
+	- Be Consistent (2/3 Problems) 								   | 	
+	- Don't waste to much time on a problem
+	- You will never be ready for a Tech. Interview
+
+	
+						=====================>>>>>>>>>> Solve 570 LeetCode Problems <<<<<<<<<<=====================
+
+
+2]	Suggestion from TakeUForward / Striver
+
+	- Don't Solve the problems you have already solved
+	- Try learning topics in Pattern
+	- Participate in Contest
+	- Try to diversify the topics in Algorithms
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+==========================================================================================================================================
+=====================================================DO ONLY IF GATE CSE 2025 IS CLEARED==================================================	
+==========================================================================================================================================	
+
+1] Some Open-Source Programs to Participate
+
+	- Google Summer of Code (Application Start from March/February) URL: https://summerofcode.withgoogle.com/
+	- Google Season	of DOCS (Application Start from March/February) URL: https://developers.google.com/season-of-docs
+	- MLH Fellowship (2 Sessions: Fall & Spring) & MLH Prep			URL(Fellowship): https://fellowship.mlh.io/   
+																	URL(Prep): https://fellowship.mlh.io/programs/prep
+	- Hyperledger Foundation										URL: https://wiki.hyperledger.org/display/INTERN
+	- LFX Mentorship												URL: https://mentorship.lfx.linuxfoundation.org/#projects_all
+	- FOSSASIA Internship											URL: https://fossasiataipei.github.io/fossasia-cht/apply/
+	- Summer of Haskell												URL: https://summer.haskell.org/
+	- Cross Open-Source Programs									URL: https://ucsc-ospo.github.io/osre/
+	- GitHub Octernship												URL: https://education.github.com/students/octernships
+	- x.org Foundation												URL: https://www.x.org/wiki/XorgEVoC/
+	
+	
+	
+	
+	
+	
+	
+	
+	
