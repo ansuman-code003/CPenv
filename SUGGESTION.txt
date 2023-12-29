@@ -2,10 +2,10 @@
 1]	Suggestion from NeetCode 
 
 	- Learn any Language (C++ STL)                                 |  Recommended Time to Solve LC probles
-	- Don't solve in Random Order								   |  	- Easy :  	10-15 mins	
+	- Don't solve in Random Order				       |  	- Easy :  	10-15 mins	
 	- Many LeetCode problems are in some Order                     |	- Medium :	20-30 mins ---> < 80% chance of clearing FAANG
 	- Use NeetCode RoadMap Tree (Suggested)                        |	- Hard:		God Knows
-	- Be Consistent (2/3 Problems) 								   | 	
+	- Be Consistent (2/3 Problems) 				  	
 	- Don't waste to much time on a problem
 	- You will never be ready for a Tech. Interview
 
