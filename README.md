@@ -1,15 +1,13 @@
-## This is a repository for setting up VIM & other programming Languages
+## This is a repository for setting up Geany for Competitive Programming
 1. Use git clone command to clone it to a drive (**Preferably in E:**) 
 ```
    git clone git@github.com:ansuman-code003/CPenv.git
 ```
-2. Paste following line to .vimrc
+2. Use following command to use Snippet Generator
 ```
-   source E:\CPenv\vimconfig\.vimrc   
+   gcc -o snipp_gen snipp_gen.c
 ```
-3. Source using following command
+3. Use following to run
 ```
-   :w
-   source %
+   snipp_gen.exe \input.in \output.out
 ```
-3. Restart VIM if you want.
