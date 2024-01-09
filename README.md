@@ -11,3 +11,5 @@
 ```
    snipp_gen.exe \input.in \output.out
 ```
+### Alternative program for Snippet Generation
+You can also use the Python Program in **geanyconfig** for easy GUI based Use.
