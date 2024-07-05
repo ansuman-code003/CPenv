@@ -1,29 +1,25 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-#include <queue>
-#include <stack>
-#include <map>
-#include <set>
-#include <string>
-#include <cstring>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-#define fastio ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
-const int MOD = 1e9 + 7;
-const int INF = 1e18;
+#define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define sz(x) ((int)(x).size())
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+
+#ifdef DEBUG
+#include "debug.hpp"
+#endif
 
 void test_case(){
-  /* Solve here! */
-
+	/* Solve here! */
+	
 }
 
 int main(){
-  fastio;
-  int test=1; scanf("%d",&test);
-  while(test--) test_case();
-	return 0;
-
+    //#ifdef DEBUG
+        //freopen("error.err", "w", stderr);
+    //#endif
+	long long int t=1; cin >> t;
+	while(t--) test_case();
+    return 0;
 }
