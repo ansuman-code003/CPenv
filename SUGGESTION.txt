@@ -1,4 +1,4 @@
-----------LeetCode--------------
+-----------LeetCode---------------
 1]	Suggestion from NeetCode 
 
 	- Learn any Language (C++ STL)                                 |  Recommended Time to Solve LC probles
