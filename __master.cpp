@@ -7,12 +7,12 @@ using namespace std;
 #define rall(x) (x).rbegin(), (x).rend()
 
 #ifdef DEBUG
-#include "debug.hpp"
+#include "E:\CP\CPenv\include\debug.hpp"
 #endif
 
 void test_case(){
 	/* Solve here! */
-	
+	printf("Hello World!\n");
 }
 
 int main(){
