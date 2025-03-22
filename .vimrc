@@ -19,20 +19,19 @@ set noendofline " No end-of-line character
 set belloff=all
 set nowrap
 set laststatus=2
+set backspace=indent,eol,start 
 
 
-" Customize line number column and add a separator
+" Customize line number column and add a separator.
 highlight LineNr ctermfg=DarkGrey guifg=DarkGrey
 set signcolumn=yes
 highlight SignColumn cterm=NONE ctermbg=NONE ctermfg=DarkGrey guibg=NONE guifg=DarkGrey
 
-"autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++14 % -o %:r -DDEBUG -Wl,--stack,268435456 -I E:\CP\includes<CR>
-"autocmd filetype cpp nnoremap <F10> :!%:r<CR>
 
-
-" Define a mapping for F5 to execute both F9 and F10 commands sequentially
+" Define a mapping for F5 to execute both F9 and F10 commands sequentially.
 autocmd filetype cpp nnoremap <F5> :w <bar> !g++ -std=c++14 % -o %:r -DDEBUG -Wl,--stack,268435456 -I E:\CP\includes<CR>:!%:r<CR>
 
+" Font Settings.
 if has("gui_running")
   if has("gui_gtk2")
     set guifont=Inconsolata\ 12
@@ -43,7 +42,17 @@ if has("gui_running")
   endif
 endif
 
-call plug#begin("C:\\Users\\mazum\\vimfiles\\plugged")
-   Plug 'itchyny/lightline.vim'
-   Plug 'jiangmiao/auto-pairs'
+" Plugins to make life easy.
+call plug#begin()
+  Plug 'octol/vim-cpp-enhanced-highlight'
+  Plug 'itchyny/lightline.vim'
+  Plug 'jiangmiao/auto-pairs'
 call plug#end()
+
+" Plugin Settings
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+let g:cpp_posix_standard = 1
+let g:cpp_experimental_template_highlight = 1
+let g:cpp_concepts_highlight = 1
