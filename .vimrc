@@ -19,40 +19,53 @@ set noendofline " No end-of-line character
 set belloff=all
 set nowrap
 set laststatus=2
-set backspace=indent,eol,start 
+colorscheme minimalist
 
-
-" Customize line number column and add a separator.
+" Customize line number column and add a separator
 highlight LineNr ctermfg=DarkGrey guifg=DarkGrey
 set signcolumn=yes
 highlight SignColumn cterm=NONE ctermbg=NONE ctermfg=DarkGrey guibg=NONE guifg=DarkGrey
 
+" Keymaps to make life easy.
 
-" Define a mapping for F5 to execute both F9 and F10 commands sequentially.
+" Define a mapping for F5 to execute both F9 and F10 commands 
 autocmd filetype cpp nnoremap <F5> :w <bar> !g++ -std=c++14 % -o %:r -DDEBUG -Wl,--stack,268435456 -I E:\CP\includes<CR>:!%:r<CR>
 
-" Font Settings.
+" Map Ctrl+A to select all text in any mode
+noremap <C-a> ggVG
+inoremap <C-a> <Esc>ggVG
+vnoremap <C-a> <Esc>ggVG
+
+" Map Ctrl+Backspace to delete word in any mode
+noremap <C-BS> db
+inoremap <C-BS> <C-W>
+vnoremap <C-BS> d
+
+" For terminals that send <C-H> for <C-BS>
+noremap <C-H> db
+  inoremap <C-H> <C-W>
+vnoremap <C-H> d
+
 if has("gui_running")
   if has("gui_gtk2")
-    set guifont=Inconsolata\ 12
+    set guifont=Inconsolata\ 13
   elseif has("gui_macvim")
     set guifont=Menlo\ Regular:h14
-  elseif has("gui_win32")
-    set guifont=Consolas:h10:cANSI
+  elseif has("gui_win33")
+    set guifont=Consolas:h11:cANSI
   endif
 endif
 
-" Plugins to make life easy.
 call plug#begin()
-  Plug 'octol/vim-cpp-enhanced-highlight'
-  Plug 'itchyny/lightline.vim'
-  Plug 'jiangmiao/auto-pairs'
+ Plug 'jiangmiao/auto-pairs'
+ Plug 'dikiaap/minimalist'
+ Plug 'itchyny/lightline.vim'
 call plug#end()
 
-" Plugin Settings
-let g:cpp_class_scope_highlight = 1
-let g:cpp_member_variable_highlight = 1
-let g:cpp_class_decl_highlight = 1
-let g:cpp_posix_standard = 1
-let g:cpp_experimental_template_highlight = 1
-let g:cpp_concepts_highlight = 1
+" Make comments more visible while keeping minimalist theme
+highlight Comment ctermfg=28 guifg=#57A64A gui=italic
+
+" Colorscheme plugin settings
+let g:airline_theme='minimalist'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
